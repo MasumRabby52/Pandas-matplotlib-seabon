@@ -49,7 +49,7 @@ Seaborn
 sn.histplot(data=iris, x='petal.length', bins=50, hue='variety', kde=True)
 pt.grid(True)
 ~~~
-# Piarplot
+# Pairplot
 seaborn
 ~~~
 sn.pairplot(data=iris,hue='variety')
